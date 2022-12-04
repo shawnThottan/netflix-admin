@@ -69,7 +69,7 @@ export default function Home({ theatres, languages }: { theatres: any, languages
           justifyContent="flex-end"
           alignItems="flex-end"
         >
-          <Button variant="contained" onClick={onAddClick}>Add Movie</Button>
+          <Button variant="contained" onClick={onAddClick} color='secondary'>Add Movie</Button>
         </Box>
         <DataGrid
           sx={{ backgroundColor: 'white' }}
